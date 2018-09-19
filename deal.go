@@ -5,7 +5,7 @@ import "fmt"
 type DealsService service
 
 type Deal struct {
-	Properties   Properties   `json:"properties"`
+	Properties   Properties
 	Associations Associations `json:"associations"`
 }
 
